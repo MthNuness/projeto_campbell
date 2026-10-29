@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+ :root{
+    --cor1: #EDC9A1;
+    --cor2: #E6BE9E;
+    --cor3: #917863;
+ }
+
+ *{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ body{
+    background-color: var(--cor2);
+ }
+
+ img{
+    display: block;
+    margin: auto;
+ }
+
+ span{
+   font-weight: bold;
+ }
+ span.m1{
+   color: red;
+   font-weight: bold;
+ }
+
+ span.m2{
+   color: rgb(214, 214, 36);
+   font-weight: bold;
+ }
+
+ span.m3{
+   color: purple;
+   font-weight: bold;
+ }
+
+ span.m4{
+   color: black;
+   font-weight: bold;
+ }
+
+ li{
+   margin-bottom: 5px;
+ }
+
+ header{
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3) );
+    height: 150px;
+    padding-top: 40px;
+    text-align: center;
+ }
+
+ header h1{
+    margin-bottom: 20px;
+    font-size: 3em;
+ }
+
+ header p{
+    font-size: 20px;
+ }
+
+ nav{
+    background-color: var(--cor3);
+    padding-bottom: 10px;
+ }
+
+ nav a{
+    color: black;
+    font-size: 17px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ 
+ nav a:hover{
+    background-color: #77614f;
+    color: var(--cor2);
+    font-weight: bold;
+ }
+
+ main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 0px 10px 20px 10px;
+ }
+
+ main h1{
+    color: #665546;
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+    font-size: 40px
+ }
+
+ main h2{
+    color: #665546;
+    background-image: linear-gradient(to right, var(--cor2), white);
+    margin: 15px 0px 15px 0px;
+    font-size: 26px;
+ }
+
+ main h2.morte{
+   color: white;
+   background-image: linear-gradient(to right, black, white);
+ }
+
+ main h2.energia{
+   color: black;
+   background-image: linear-gradient(to right, purple, white);
+ }
+
+ main h2.sangue{
+   color: black;
+   background-image: linear-gradient(to right, darkred, white);
+ }
+ 
+ main h2.conhecimento{
+   color: black;
+   background-image: linear-gradient(to right, darkgoldenrod, white);
+ }
+
+ main p{
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 20px;
+    margin: 10px 0px 10px 0px;
+ }
+
+ main p.morte{
+   color: black;
+   font-weight: bold;
+ }
+ 
+main p.energia{
+   color: purple;
+   font-weight: bold;
+}
+
+main p.sangue{
+   color: darkred;
+   font-weight: bold;
+}
+
+main p.conhecimento{
+   color: darkgoldenrod;
+   font-weight: bold;
+}
+
+ main h3{
+    background-color: var(--cor2);
+    padding: 10px 0px 10px 15px;
+    font-size: 20px;
+    border-radius: 10px 10px 0px 0px;
+ }
+
+ main p.foda{
+    text-align: center;
+    font-weight: bold;
+ }
+
+ main aside{
+    background-color: var(--cor1);
+    min-width: 300px;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 10px;
+    padding-bottom: 20px;
+ }
+
+ main ul{
+   list-style-position: inside;
+   columns: 2;
+ }
+
+ footer{
+    background-color: var(--cor3);
+    padding: 5px 0px 5px 0px;
+ }
+
+ footer p{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+ }
+
+ 
+ 
+ 
